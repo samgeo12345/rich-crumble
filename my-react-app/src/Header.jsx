@@ -1,6 +1,17 @@
-function Header(){
+import React,{useState,useEffect} from "react"
+    function Header() {
+        const [isScrolled, setIsScrolled] = useState(false);
+      
+        useEffect(() => {
+          const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+          };
+      
+          window.addEventListener("scroll", handleScroll);
+          return () => window.removeEventListener("scroll", handleScroll);
+        }, []);
     return(
-        <div className="navdiv">
+        <div className={`navdiv ${isScrolled ? "scrolled" : ""}`} id="nav">
             <div className="logodiv">
                 <h2>𝓡𝓲𝓬𝓱 𝓒𝓻𝓾𝓶𝓫𝓵𝓮</h2>
             </div>

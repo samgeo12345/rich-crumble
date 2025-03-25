@@ -13,6 +13,7 @@ body{
   top:0;
   position:fixed;
   width:100%;
+  z-index:2000;
 }
 .navdiv,.navdiv div{
   display:flex;
@@ -47,8 +48,13 @@ body{
   background-color:black;
 }
 .navdiv.scrolled{
+  background-color:rgba(255, 20, 147,0.6);
   backdrop-filter:blur(8px);
-  transition:.5s;
+  transition:.3s ease-in-out;
+}
+.navdiv.scrolled a{
+  color:white;
+  transition:.3s ease-in-out;
 }
 .Homediv{
   display:flex;
@@ -80,8 +86,15 @@ body{
   color:white;
   font-family:'Poppins',system-ui;
 }
+.Homediv h1{
+  color:deeppink;
+  filter:drop-shadow(0px 0px 1px rgba(0,0,0,0.9));
+}
 .cakediv{
   text-align:center;
+}
+.cakediv h1{
+  color:deeppink;
 }
 .cakes{
   text-align:center;
@@ -128,4 +141,89 @@ body{
 .cake .b2{
   background-color:deeppink;
   border-color:deeppink;
+}
+.anchor{
+  margin-top:3%;
+}
+.anchor a{
+  text-decoration:none;
+  color:deeppink;
+}
+.contactdiv{
+  text-align:center;
+  width:90%;
+  margin:auto;
+}
+.contactdiv h1{
+  color:deeppink;
+}
+.emaildiv{
+  display:flex;
+  justify-content:center;
+  overflow:hidden;
+  width:50%;
+  margin:auto;
+  border-radius:5px;
+  box-shadow:0px 0px 1px rgba(0,0,0,0.9);
+}
+.emaildiv input,.emaildiv button{
+  border:none;
+  padding:2%;
+  outline:none;
+  font-family:'Poppins',system-ui;
+}
+.emaildiv input{
+  width:75%;
+}
+.emaildiv button{
+  width:25%;
+  background-color:black;
+  color:white;
+}
+.ownerdiv{
+  display:flex;
+  justify-content: space-evenly;
+}
+.ownerdiv i{
+  font-size:large;
+  color:deeppink;
+}
+.ownerdiv span{
+  font-weight:bold;
+}
+.bottomdiv{
+  text-align:center;
+  background-color:deeppink;
+  padding-top:3%;
+  padding-bottom:0.5%;
+  margin-top:4%;
+}
+.bottomdiv p{
+  color:white;
+}
+.bottomdiv span{
+  font-weight:bold;
+}
+.bottomdiv .p{
+  font-size:small;
+}
+.socialdiv{
+  text-align:left;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  color:white;
+}
+.socials{
+  display:flex;
+  justify-content:center;
+  font-size:xx-large;
+  gap:20px;
+}
+.socialdiv a{
+  text-decoration:none;
+  color:white;
+}
+.heading{
+  font-weight:bold;
 }

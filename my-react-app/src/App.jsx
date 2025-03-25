@@ -1,7 +1,8 @@
 import Header from './Header.jsx'
 import Home from './Home.jsx'
 import Cake from './Cakes.jsx'
-import About from './About.jsx'
+import Contact from './Contact.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
   return(
@@ -9,7 +10,8 @@ function App() {
       <Header/>
       <Home/>
       <Cake/>
-      <About/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

@@ -5,6 +5,7 @@ import cake4 from './assets/colorcake.jpg'
 import cake5 from './assets/chocolatecake.jpg'
 import cake6 from './assets/dessertcup.jpg'
 import cake7 from './assets/blueberrycake.jpg'
+import cake8 from './assets/blackforest.jpg'
 function Cake(){
     return(
         <div className="cakediv">
@@ -87,6 +88,20 @@ function Cake(){
                     </div>
                     <br />
                 </div>
+                <div className="cake">
+                    <img src={cake8} alt="" />
+                    <h4>Black Forest Cake</h4>
+                    <p>A classic German dessert featuring layers of chocolate cake, fresh cherries, and whipped cream, topped with chocolate shavings.</p>
+                    <br />
+                    <div>
+                    <button className="b1">See details</button>
+                    <button className="b2">Order now</button>
+                    </div>
+                    <br />
+                </div>
+            </div>
+            <div className="anchor">
+                <a href="">see more ›</a>
             </div>
         </div>
     );

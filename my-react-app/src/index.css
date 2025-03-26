@@ -234,6 +234,10 @@ body{
   .cake{
     flex:1 1 calc(50% - 20px);
   }
+  .emaildiv input,.emaildiv button{
+    padding:3%;
+  }
+  
 }
 @media(max-width:400px){
   .cake{
@@ -242,5 +246,10 @@ body{
   .navdiv.scrolled .searchdiv,.navdiv .searchdiv{
     display:none;
   }
-
+  .emaildiv input,.emaildiv button{
+    padding:4%;
+  }
+  .emaildiv{
+    width:90%;
+  }
 }

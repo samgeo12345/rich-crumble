@@ -258,7 +258,21 @@ body{
   .emaildiv input,.emaildiv button{
     padding:3%;
   }
-  
+}
+@media(max-width:500px){
+  .navdiv{
+    flex-direction:column;
+    padding-bottom:2%;
+  }
+  .navdiv .options{
+    margin-top:-3%;
+  }
+  .navdiv .search{
+    margin-top:6%;
+  }
+  .cakes{
+    gap:15px;
+  }
 }
 @media(max-width:400px){
   .cake{

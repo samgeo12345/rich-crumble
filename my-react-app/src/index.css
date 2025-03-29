@@ -264,9 +264,6 @@ body{
   .cake{
     flex:1 1 calc(100%);
   }
-  .navdiv.scrolled .searchdiv,.navdiv .searchdiv{
-    display:none;
-  }
   .emaildiv input,.emaildiv button{
     padding:4%;
   }

@@ -8,7 +8,7 @@ import cake7 from './assets/blueberrycake.jpg'
 import cake8 from './assets/blackforest.jpg'
 function Cake(){
     return(
-        <div className="cakediv">
+        <div className="cakediv" id="cakes">
             <h1>𝑪𝒂𝒌𝒆𝒔</h1>
             <div className="cakes">
                 <div className="cake">

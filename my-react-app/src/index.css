@@ -28,6 +28,7 @@ body{
 .navdiv .options a{
   text-decoration:none;
   color:black;
+  cursor:pointer;
 }
 .navdiv .search{
   overflow:hidden;
@@ -192,6 +193,26 @@ body{
 }
 .ownerdiv span{
   font-weight:bold;
+}
+.aboutdiv{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-image:url("assets/logoback.png");
+  height:150vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+.aboutdiv div{
+  text-align:center;
+  width:85%;
+  padding:2%;
+  background-color:rgba(255,255,255,0.5);
+}
+.aboutdiv div h1{
+  color:deeppink;
+  filter:drop-shadow(0px 0px 1px rgba(0,0,0,0.9));
 }
 .bottomdiv{
   text-align:center;

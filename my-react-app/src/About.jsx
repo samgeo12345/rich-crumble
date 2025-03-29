@@ -10,8 +10,6 @@ function About(){
             <br /><br />
             From classic favorites to unique signature cakes, our handcrafted delights are perfect for birthdays, weddings, anniversaries, and all of life’s special moments. We also offer customization options, allowing you to personalize your cake with unique flavors, fillings, and designs to match your celebration perfectly.
             <br /><br />
-            With a seamless online ordering experience, we make it easy for you to choose, customize, and receive your dream cake with just a few clicks. Whether you're treating yourself or surprising a loved one, Rich Crumble is here to add sweetness and joy to your life—one cake at a time!
-            <br /><br />
             Indulge in the magic of Rich Crumble, where every cake is a masterpiece. 
             </p>
             </div>
